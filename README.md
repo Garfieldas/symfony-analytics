@@ -1,4 +1,28 @@
-# Academy 2025
+# Invertus Academy 2025 analytics project
+
+## About project
+
+This project focuses on integrating a custom-built PrestaShop module with a Symfony-based API to enhance product analysis capabilities. The PrestaShop module is designed to collect data on the best-selling products from the PrestaShop database. Once collected, the data is sent to a Symfony API endpoint.
+
+On the Symfony side, the received product data is processed and displayed through a user-friendly interface, allowing users to view, filter, and analyze top-selling products. Additionally, the system integrates AI-driven analysis tools that provide deeper insights into sales and product performance, helping businesses make smarter, data-backed decisions.
+
+This solution streamlines the process of sales data collection and analysis, offering a powerful tool for e-commerce businesses aiming to optimize their sales strategy through the use of modern technology and artificial intelligence.
+
+## Preview
+## Prestashop Module Part - https://github.com/Garfieldas/klipmpodule
+![Alt text](https://i.ibb.co/mC6FYNqG/Screenshot-2025-04-25-at-21-52-45.png)
+
+![Alt text](https://i.ibb.co/cBcmsCD/Screenshot-2025-04-25-at-21-53-01.png)
+
+![Alt text](https://i.ibb.co/V0nwZm0R/Screenshot-2025-04-25-at-21-53-11.png)
+
+## Symfony App Part
+![Alt text](https://i.ibb.co/hxq4ytR5/Screenshot-2025-04-25-at-21-53-22.png)
+
+![Alt text](https://i.ibb.co/Kxj8Yv3t/Screenshot-2025-04-25-at-21-53-30.png)
+
+![Alt text](https://i.ibb.co/q3pjXBcg/Screenshot-2025-04-25-at-21-53-45.png)
+
 
 ## Getting Started (with Docker)
 
@@ -15,6 +39,7 @@
 
 ## Features
 
+
 -   Production, development and CI ready
 -   Just 1 service by default
 -   Blazing-fast performance thanks to [the worker mode of FrankenPHP](https://github.com/dunglas/frankenphp/blob/main/docs/worker.md) (automatically enabled in prod mode)
@@ -25,8 +50,6 @@
 -   [Vulcain](https://vulcain.rocks) support
 -   Native [XDebug](docs/xdebug.md) integration
 -   Super-readable configuration
-
-**Enjoy!**
 
 ## Symfony local installation
 
